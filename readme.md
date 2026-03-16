@@ -8,6 +8,18 @@ for e.g. BeautifulSoap - for scraping
 
 Note: this tool is still in development, but it is highly capable. 
 
+## Requirements
+1. Run a local llm (serve a local llm)
+2. Add the name of the model, served link etc on config.py
+3. Add the siteurl of which audit is required, rest nothing else to touch
+4. Add ga4.csv file (this can be downloaded from "analytics.google.com" in data_uploads folder (optional)
+
+### Future prospects
+1. making it simple to use by creating an user interface
+2. easy selection of model, using a toggle to select local or cloud based model
+3. adding more tools, eg. serp
+4. auto fetching of ga4 and gsc data
+
 ## Dashboard — see pipeline status at a glance
 python seo.py
 
